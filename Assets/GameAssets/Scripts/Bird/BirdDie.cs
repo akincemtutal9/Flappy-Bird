@@ -16,11 +16,14 @@ public class BirdDie : MonoBehaviour
     }
     private void KillBird()
     {
+        var rb = GetComponent<Rigidbody2D>();
+        var sprite = GetComponentInChildren<SpriteRenderer>();
         GetComponent<BirdMovement>().enabled = false;
         GetComponent<BoxCollider2D>().enabled = false;
-        GetComponentInChildren<SpriteRenderer>().sprite = deadBirdSprite;
-        GetComponentInChildren<SpriteRenderer>().transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
-        GetComponent<Rigidbody2D>().AddForce(Vector2.up * force, ForceMode2D.Impulse);
+        sprite.sprite = deadBirdSprite;
+        sprite.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+        rb.velocity = Vector2.zero;
+        rb.AddForce(Vector2.up * force, ForceMode2D.Impulse);
         Destroy(this, 2f);
     }
 }
