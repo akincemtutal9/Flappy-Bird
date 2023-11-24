@@ -30,6 +30,6 @@ public class BirdMovement : MonoBehaviour
     {
         var rotationSpeed = rb.velocity.y >= 0 ? jumpRotationSpeed : fallRotationSpeed;
         targetRotation = rb.velocity.y >= 0 ? Quaternion.Euler(0, 0, jumpRotation) : Quaternion.Euler(0, 0, fallRotation);
-        sprite.transform.rotation = Quaternion.Lerp(sprite.transform.rotation, targetRotation, Time.deltaTime * rotationSpeed);
+        transform.rotation = Quaternion.Lerp(sprite.transform.rotation, targetRotation, Time.deltaTime * rotationSpeed);
     }
 }

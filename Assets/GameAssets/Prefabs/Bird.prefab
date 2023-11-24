@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 3346508564517725954}
   - component: {fileID: 8631611091128661008}
   - component: {fileID: 4153426380952344264}
+  - component: {fileID: 8595173704390458673}
   m_Layer: 0
   m_Name: Bird
   m_TagString: Untagged
@@ -204,7 +205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04127ece327571349b7615d34c78c257, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 5
+  jumpForce: 4.367834
   jumpRotationSpeed: 9.23214
   fallRotationSpeed: 3.6545
   jumpRotation: 45
@@ -223,3 +224,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6167f998c6dcef4ab6027a1f5b3cca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8595173704390458673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8268176323879323779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e1b4a78aad5cd45a4430a4c826cd21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deadBirdSprite: {fileID: 21300000, guid: 7b1eb57cb98d7904f91898629ab59edf, type: 3}
+  force: 3.5
