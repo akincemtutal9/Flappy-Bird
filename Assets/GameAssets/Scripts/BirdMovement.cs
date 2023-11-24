@@ -13,17 +13,18 @@ public class BirdMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private SpriteRenderer sprite;  
     private Quaternion targetRotation;
-    void OnEnable()
+    private void OnEnable()
 	{
 		LeanTouch.OnFingerTap += HandleFingerTap;
 	}
-	void OnDisable()
+	private void OnDisable()
 	{
 		LeanTouch.OnFingerTap -= HandleFingerTap;
 	}
-    void HandleFingerTap(Lean.Touch.LeanFinger finger)
+    private void HandleFingerTap(LeanFinger finger)
 	{
         rb.velocity = Vector2.up * jumpForce;
+        EventManager.TriggerEvent(GameEvent.OnJump);
 	}
     private void Update()
     {
