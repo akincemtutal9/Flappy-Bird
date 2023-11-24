@@ -395,3 +395,273 @@ Received Import Request.
 Start importing Assets/GameAssets/Prefabs/Pipe-Parent-Green.prefab using Guid(db9e998b376a5294b856c0746316469d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea32b7b0ad56ad73e56ccdf9fe3a18a') in 0.880258 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 41
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.462 seconds
+Refreshing native plugins compatible for Editor in 7.75 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.258 seconds
+Domain Reload Profiling: 6710ms
+	BeginReloadAssembly (667ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (112ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (567ms)
+		LoadAssemblies (970ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (5260ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1518ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (101ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (226ms)
+			ProcessInitializeOnLoadAttributes (952ms)
+			ProcessInitializeOnLoadMethodAttributes (208ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (50ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 13.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5583 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 MB). Loaded Objects now: 6224.
+Memory consumption went from 207.7 MB to 206.7 MB.
+Total: 13.178300 ms (FindLiveObjects: 1.043000 ms CreateObjectMapping: 1.152700 ms MarkObjects: 9.353100 ms  DeleteObjects: 1.626800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CwEditor.cs: 6f7957042f3ad08a96373fcc90e6b0cc -> 3eb4279db42d6b6d1d7569f9c2230351
+  custom:scripting/monoscript/fileName/LeanDragTrail.cs: 835add2c27b6ab79585ace973f85e621 -> 00a0c3919d49afbed1ae159609994b8c
+  custom:scripting/monoscript/fileName/LeanSwipeBase.cs: 046adab6df9282ff118c00ad35a62307 -> dfd21418807eb7040531964073c20fff
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CwHelper.cs: 124e1a7f686799ef301bf58b8b243952 -> fc5e880575b3aa9b621dde2c5e7fbee9
+  custom:scripting/monoscript/fileName/LeanTouch.cs: c564a90f7e7f9ecc431ddeda49762934 -> 3f4f965ff348514f8a74b074d3f7520b
+  custom:scripting/monoscript/fileName/LeanFingerUp.cs: 49c3c8da3627d183451b0188336aa18c -> 0991623ff620b80c5c028e057758b81c
+  custom:scripting/monoscript/fileName/LeanDestroy.cs: c7a8279bf6efe79a871ccdece9bfb87d -> 2e50fb43d753fe49f6bed7a9d5a84f18
+  custom:scripting/monoscript/fileName/LeanPinchScale.cs: 0ac4c67977fa0c9601a585a420018a5f -> 869f862dec0c489c135cf8adcd35e8b0
+  custom:scripting/monoscript/fileName/CwCommon.cs: 5ccb1724d16db59edc737a8f67192372 -> e76cb04ad06c8a3295362d47e9106bc9
+  custom:scripting/monoscript/fileName/LeanSelectableByFingerBehaviour.cs: aa0ec05919a6ad75eb7664fe0fd4402f -> 846e8fd5863620af864ea7399a861f2c
+  custom:scripting/monoscript/fileName/CwSeedAttribute.cs: 495240b2c25166e78f9bbbfe3a9d4439 -> 3e560aedcc6d4fad6c6291af2f834159
+  custom:scripting/monoscript/fileName/CwCameraPivot.cs: 59bfa7d82154b76c20065714daa0e6fc -> a66ba81b0185f45d0b7014b3bc5abacf
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/CwShaderBundle.cs: 4f6738bade90cc48b719613d2f40c37f -> 51d98cdba0a23d7baebe004d283c0fdc
+  custom:scripting/monoscript/fileName/LeanPulseScale.cs: 7e6981daeb62387d67e615bc76b57906 -> 5ed66dad63fe1f887a70b1df8b52d570
+  custom:scripting/monoscript/fileName/CwFollow.cs: 35f737e3035b40fad1e0f524cb7a02bd -> bd853c4006ef7719528205283ffd7955
+  custom:scripting/monoscript/fileName/LeanPlane.cs: ac66c9d351ef374f79475458833f3c76 -> c8704cf28aa695dcc257ca6b61cbb5c8
+  custom:scripting/monoscript/fileName/LeanDragCamera.cs: a3902dfec1907d595643de132f002619 -> 7a4b5849883faf8367eac661e0f18c46
+  custom:scripting/monoscript/fileName/CwGuide.cs: 36ae5c3edfae548b15058660ca5ba7cc -> f26cde23750b42dd487622446f707bb2
+  custom:scripting/monoscript/fileName/LeanSelectableSpriteRendererColor.cs: f900f0b35e2a67f3f4030c7f3afdcf91 -> 370f467340aaabb9b6724137291d94f4
+  custom:scripting/monoscript/fileName/LeanFingerSwipe.cs: 60a7b21c2a9ff9169b3ddcb4d172b6df -> 7f347877867ad5c01ac390e3209386ba
+  custom:scripting/monoscript/fileName/CwInput.cs: bf891940a7f1cd51050d2e0b8e3d42fe -> 3570766f3848c73679446c8e36e8e969
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/CwDemo.cs: d57192a75935d1974fdbad07a767d46d -> d5b84e36db7eee661ee6b908e5bb8b2d
+  custom:scripting/monoscript/fileName/LeanCommon.cs: 3a0cadf73711ac3917a5d9c99732307d -> 69cbe6d4f804846587945ad6653a6447
+  custom:scripting/monoscript/fileName/LeanSelectableRendererColor.cs: ebec9ae974c53bd16867f1aea9c44885 -> 6961b4a27657463a18edb1590229d67d
+  custom:scripting/monoscript/fileName/CwDepthTextureMode.cs: aed34bb68fb7b4a97f86626b16dd7ba7 -> 46068f060b557607ca9585612dc63a48
+  custom:scripting/monoscript/fileName/CwInputManager.cs: c72a9f5140c4e7322f2f369bf133076f -> cccf6ebebb1f94802b0ccfade726003c
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LeanFingerFilter.cs: c4737b7ac3262c1a0e2c9c84c232b3cb -> fb517a1b40ef20894236c2c4053c09d0
+  custom:scripting/monoscript/fileName/LeanFingerDown.cs: eb7422c2c300ba7dc015d38d0b9466e4 -> e31f9506e38816030cd9f5a4a4ecc06a
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LeanFormatString.cs: d82f072ca19e9fac5dd46b1f91d7737e -> dd7e87894a4cb05cc5b8343ee8c755b8
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/LeanRoll.cs: 1736fc66234f217b0960e03fa586fe89 -> 48ae025056d488ac484bf668376941f1
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LeanSelectable.cs: 2b3ba67d5162b1ad3f620bd7c62337a2 -> 4a0fa0ce26a1b0e256248e1a6b1f684f
+  custom:scripting/monoscript/fileName/LeanTwistRotate.cs: 0c6b971dd44d83a07921d134365ce7a3 -> 79ea9065fbe929126f1630511c3e85a2
+  custom:scripting/monoscript/fileName/LeanSpawn.cs: 6ac713846159ae89520ed30813dca0b1 -> 5cb334b3ea5d3c19feb099353417d0a5
+  custom:scripting/monoscript/fileName/LeanFingerUpdate.cs: 34080c8b3190c2951a0ab0128309e8c1 -> d021e80a8524d975abf195b8252d9f36
+  custom:scripting/monoscript/fileName/LeanScreenQuery.cs: acdc18c8288ea4e6ffc1a559249b495c -> 6d3514e48b87f1acadb2d2d5a88665b9
+  custom:scripting/monoscript/fileName/CwChild.cs: 5f34aeb627f787235d7556803b5ad321 -> 19a28d379b19654d82ce76daebbeb908
+  custom:scripting/monoscript/fileName/CwDemoButton.cs: b38b86b6b89f875474ede7c920a7ccae -> 88d9fea48b9b250fe5652753fa35599e
+  custom:scripting/monoscript/fileName/LeanPath.cs: 1bc8542d8831ca7b72c9ee465bac01c0 -> 223201a768c6eb461656a37215f1aa62
+  custom:scripting/monoscript/fileName/LeanFingerData.cs: d6608784e1ed804080887a43532e4228 -> c496dee232a230f8437397ce48ec8457
+  custom:scripting/monoscript/fileName/LeanGesture.cs: c74c2ddbea47a61fa517318829c5eabb -> c92f50133796cf56b6281d150dbbce23
+  custom:scripting/monoscript/fileName/LeanSelectByFinger.cs: c4734432bd3562848be5c2a3265e9baa -> 86a8e8ea34e64d7db6aa65cfffb23e08
+  custom:scripting/monoscript/fileName/LeanSelectableByFinger.cs: 6a0721c88b823d6b517e89e2a0f92b95 -> b8a7cb54d6ba040e5147500a9038cb8a
+  custom:scripting/monoscript/fileName/LeanDragTranslate.cs: bc3a92e8dc14e66bf594f05bbb0c19a8 -> 4a227bfc8ee29262c28fb9b5ed4b324b
+  custom:scripting/monoscript/fileName/LeanFingerTap.cs: 3dac61b5d706b6b03b0b9c36753b43e1 -> 903e8c089ff2aa03f319ce5f459b556a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CwLightIntensity.cs: 1a95f2e89ffb21d67b0294968728febb -> 6b325e3c6958d3ed7812ca73561810f3
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LeanSelectableGraphicColor.cs: 4113246b018e4e3f3d12cee31c8e8b34 -> 66fa779b3bfe082e86bbf334debfd4ab
+  custom:scripting/monoscript/fileName/CwCameraLook.cs: 52ec1513c5ce5118dab60d2fa6a70a40 -> 2e651799f2d95d7a5a5debe62270f6e9
+  custom:scripting/monoscript/fileName/CwRotate.cs: 496dd3bdac238c31ab158fdfcfa051d6 -> 2ad4fc034878cc716b815940b4535ee6
+  custom:scripting/monoscript/fileName/CwCameraMove.cs: 537270ca72fad9322e467d63813a848b -> b994ab3ec4965289f5cd5c5d5f588339
+  custom:scripting/monoscript/fileName/CwRenderTextureManager.cs: 76152b097dc476dc98addaf8404f67b6 -> ed030f2170cedc3a640ef40581f489ab
+  custom:scripting/monoscript/fileName/PipeDie.cs: 6c5f07338f1259d0dbd8b7c9855b4044 -> 
+  custom:scripting/monoscript/fileName/LeanTouchSimulator.cs: 7f977229a3c44a1dd1c72bc57c8dd6e2 -> 3e524640731e212665988bfe815fe6e4
+  custom:scripting/monoscript/fileName/LeanScreenDepth.cs: ad4cf377b84906e9affb70b5c45d72a1 -> de4fa112ed93a02e7c1e2f12507b0637
+  custom:scripting/monoscript/fileName/LeanTouchEvents.cs: 477be79ee294e82b1c9638ac8781e1e6 -> a1b694f71eb461dcaa64a279f56f12ca
+  custom:scripting/monoscript/fileName/LeanFingerOld.cs: 57235a6cf9ae93060300f2c5a94c9935 -> 35819bf94e8eb2edd406c3aa43e5b971
+  custom:scripting/monoscript/fileName/LeanFinger.cs: f934e7a138c262abbef3dcf6f594b97f -> 0ef99c85a0680e0c0d2de5fbc26c04ab
+  custom:scripting/monoscript/fileName/LeanSelectableBehaviour.cs: c6c74f0ab075f387b4d7dc633e1a8c41 -> aea8ab7c18ce5ca65961f3792130af8b
+  custom:scripting/monoscript/fileName/LeanSnapshot.cs: 95077167d74245281ed69d71fbe9209c -> 74b2700d6379ffb071906122051a33a9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LeanTwistRotateAxis.cs: b210e388cd9a151819ec6ceab81a6dcb -> 2f226864be16cb3af60ad5e8da513fac
+  custom:scripting/monoscript/fileName/LeanSelect.cs: ca0ebbf891d5caecc554bbfe86eea9ed -> 8fb74c98184dc001a37d3276224bc7aa
+  custom:scripting/monoscript/fileName/CwDemoButtonBuilder.cs: 51acbccdbd33625be42712b2a80cfa13 -> e79d70dd4f91651d1857828a7fc593e1
+========================================================================
+Received Import Request.
+  Time since last request: 135.783322 seconds.
+  path: Assets/GameAssets/Scripts/UIManager.cs
+  artifactKey: Guid(557868988b14b764d8209bb5947503e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Scripts/UIManager.cs using Guid(557868988b14b764d8209bb5947503e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0852d01b00aefd53265f1aff46a19153') in 0.006763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.924 seconds
+Refreshing native plugins compatible for Editor in 7.13 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.848 seconds
+Domain Reload Profiling: 4765ms
+	BeginReloadAssembly (270ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (513ms)
+		LoadAssemblies (576ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (41ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (3849ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1028ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (73ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (606ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5583 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 MB). Loaded Objects now: 6229.
+Memory consumption went from 209.5 MB to 208.5 MB.
+Total: 9.791900 ms (FindLiveObjects: 0.917500 ms CreateObjectMapping: 1.546200 ms MarkObjects: 6.144300 ms  DeleteObjects: 1.180200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CwEditor.cs: 6f7957042f3ad08a96373fcc90e6b0cc -> 3eb4279db42d6b6d1d7569f9c2230351
+  custom:scripting/monoscript/fileName/LeanDragTrail.cs: 835add2c27b6ab79585ace973f85e621 -> 00a0c3919d49afbed1ae159609994b8c
+  custom:scripting/monoscript/fileName/LeanSwipeBase.cs: 046adab6df9282ff118c00ad35a62307 -> dfd21418807eb7040531964073c20fff
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CwHelper.cs: 124e1a7f686799ef301bf58b8b243952 -> fc5e880575b3aa9b621dde2c5e7fbee9
+  custom:scripting/monoscript/fileName/LeanTouch.cs: c564a90f7e7f9ecc431ddeda49762934 -> 3f4f965ff348514f8a74b074d3f7520b
+  custom:scripting/monoscript/fileName/LeanFingerUp.cs: 49c3c8da3627d183451b0188336aa18c -> 0991623ff620b80c5c028e057758b81c
+  custom:scripting/monoscript/fileName/LeanDestroy.cs: c7a8279bf6efe79a871ccdece9bfb87d -> 2e50fb43d753fe49f6bed7a9d5a84f18
+  custom:scripting/monoscript/fileName/LeanPinchScale.cs: 0ac4c67977fa0c9601a585a420018a5f -> 869f862dec0c489c135cf8adcd35e8b0
+  custom:scripting/monoscript/fileName/CwCommon.cs: 5ccb1724d16db59edc737a8f67192372 -> e76cb04ad06c8a3295362d47e9106bc9
+  custom:scripting/monoscript/fileName/LeanSelectableByFingerBehaviour.cs: aa0ec05919a6ad75eb7664fe0fd4402f -> 846e8fd5863620af864ea7399a861f2c
+  custom:scripting/monoscript/fileName/CwSeedAttribute.cs: 495240b2c25166e78f9bbbfe3a9d4439 -> 3e560aedcc6d4fad6c6291af2f834159
+  custom:scripting/monoscript/fileName/CwCameraPivot.cs: 59bfa7d82154b76c20065714daa0e6fc -> a66ba81b0185f45d0b7014b3bc5abacf
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/CwShaderBundle.cs: 4f6738bade90cc48b719613d2f40c37f -> 51d98cdba0a23d7baebe004d283c0fdc
+  custom:scripting/monoscript/fileName/LeanPulseScale.cs: 7e6981daeb62387d67e615bc76b57906 -> 5ed66dad63fe1f887a70b1df8b52d570
+  custom:scripting/monoscript/fileName/CwFollow.cs: 35f737e3035b40fad1e0f524cb7a02bd -> bd853c4006ef7719528205283ffd7955
+  custom:scripting/monoscript/fileName/LeanPlane.cs: ac66c9d351ef374f79475458833f3c76 -> c8704cf28aa695dcc257ca6b61cbb5c8
+  custom:scripting/monoscript/fileName/LeanDragCamera.cs: a3902dfec1907d595643de132f002619 -> 7a4b5849883faf8367eac661e0f18c46
+  custom:scripting/monoscript/fileName/CwGuide.cs: 36ae5c3edfae548b15058660ca5ba7cc -> f26cde23750b42dd487622446f707bb2
+  custom:scripting/monoscript/fileName/LeanSelectableSpriteRendererColor.cs: f900f0b35e2a67f3f4030c7f3afdcf91 -> 370f467340aaabb9b6724137291d94f4
+  custom:scripting/monoscript/fileName/LeanFingerSwipe.cs: 60a7b21c2a9ff9169b3ddcb4d172b6df -> 7f347877867ad5c01ac390e3209386ba
+  custom:scripting/monoscript/fileName/CwInput.cs: bf891940a7f1cd51050d2e0b8e3d42fe -> 3570766f3848c73679446c8e36e8e969
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/CwDemo.cs: d57192a75935d1974fdbad07a767d46d -> d5b84e36db7eee661ee6b908e5bb8b2d
+  custom:scripting/monoscript/fileName/LeanCommon.cs: 3a0cadf73711ac3917a5d9c99732307d -> 69cbe6d4f804846587945ad6653a6447
+  custom:scripting/monoscript/fileName/LeanSelectableRendererColor.cs: ebec9ae974c53bd16867f1aea9c44885 -> 6961b4a27657463a18edb1590229d67d
+  custom:scripting/monoscript/fileName/CwDepthTextureMode.cs: aed34bb68fb7b4a97f86626b16dd7ba7 -> 46068f060b557607ca9585612dc63a48
+  custom:scripting/monoscript/fileName/CwInputManager.cs: c72a9f5140c4e7322f2f369bf133076f -> cccf6ebebb1f94802b0ccfade726003c
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LeanFingerFilter.cs: c4737b7ac3262c1a0e2c9c84c232b3cb -> fb517a1b40ef20894236c2c4053c09d0
+  custom:scripting/monoscript/fileName/LeanFingerDown.cs: eb7422c2c300ba7dc015d38d0b9466e4 -> e31f9506e38816030cd9f5a4a4ecc06a
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LeanFormatString.cs: d82f072ca19e9fac5dd46b1f91d7737e -> dd7e87894a4cb05cc5b8343ee8c755b8
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/LeanRoll.cs: 1736fc66234f217b0960e03fa586fe89 -> 48ae025056d488ac484bf668376941f1
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LeanSelectable.cs: 2b3ba67d5162b1ad3f620bd7c62337a2 -> 4a0fa0ce26a1b0e256248e1a6b1f684f
+  custom:scripting/monoscript/fileName/LeanTwistRotate.cs: 0c6b971dd44d83a07921d134365ce7a3 -> 79ea9065fbe929126f1630511c3e85a2
+  custom:scripting/monoscript/fileName/LeanSpawn.cs: 6ac713846159ae89520ed30813dca0b1 -> 5cb334b3ea5d3c19feb099353417d0a5
+  custom:scripting/monoscript/fileName/LeanFingerUpdate.cs: 34080c8b3190c2951a0ab0128309e8c1 -> d021e80a8524d975abf195b8252d9f36
+  custom:scripting/monoscript/fileName/LeanScreenQuery.cs: acdc18c8288ea4e6ffc1a559249b495c -> 6d3514e48b87f1acadb2d2d5a88665b9
+  custom:scripting/monoscript/fileName/CwChild.cs: 5f34aeb627f787235d7556803b5ad321 -> 19a28d379b19654d82ce76daebbeb908
+  custom:scripting/monoscript/fileName/CwDemoButton.cs: b38b86b6b89f875474ede7c920a7ccae -> 88d9fea48b9b250fe5652753fa35599e
+  custom:scripting/monoscript/fileName/LeanPath.cs: 1bc8542d8831ca7b72c9ee465bac01c0 -> 223201a768c6eb461656a37215f1aa62
+  custom:scripting/monoscript/fileName/LeanFingerData.cs: d6608784e1ed804080887a43532e4228 -> c496dee232a230f8437397ce48ec8457
+  custom:scripting/monoscript/fileName/LeanGesture.cs: c74c2ddbea47a61fa517318829c5eabb -> c92f50133796cf56b6281d150dbbce23
+  custom:scripting/monoscript/fileName/LeanSelectByFinger.cs: c4734432bd3562848be5c2a3265e9baa -> 86a8e8ea34e64d7db6aa65cfffb23e08
+  custom:scripting/monoscript/fileName/LeanSelectableByFinger.cs: 6a0721c88b823d6b517e89e2a0f92b95 -> b8a7cb54d6ba040e5147500a9038cb8a
+  custom:scripting/monoscript/fileName/LeanDragTranslate.cs: bc3a92e8dc14e66bf594f05bbb0c19a8 -> 4a227bfc8ee29262c28fb9b5ed4b324b
+  custom:scripting/monoscript/fileName/LeanFingerTap.cs: 3dac61b5d706b6b03b0b9c36753b43e1 -> 903e8c089ff2aa03f319ce5f459b556a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CwLightIntensity.cs: 1a95f2e89ffb21d67b0294968728febb -> 6b325e3c6958d3ed7812ca73561810f3
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LeanSelectableGraphicColor.cs: 4113246b018e4e3f3d12cee31c8e8b34 -> 66fa779b3bfe082e86bbf334debfd4ab
+  custom:scripting/monoscript/fileName/CwCameraLook.cs: 52ec1513c5ce5118dab60d2fa6a70a40 -> 2e651799f2d95d7a5a5debe62270f6e9
+  custom:scripting/monoscript/fileName/CwRotate.cs: 496dd3bdac238c31ab158fdfcfa051d6 -> 2ad4fc034878cc716b815940b4535ee6
+  custom:scripting/monoscript/fileName/CwCameraMove.cs: 537270ca72fad9322e467d63813a848b -> b994ab3ec4965289f5cd5c5d5f588339
+  custom:scripting/monoscript/fileName/CwRenderTextureManager.cs: 76152b097dc476dc98addaf8404f67b6 -> ed030f2170cedc3a640ef40581f489ab
+  custom:scripting/monoscript/fileName/PipeDie.cs: 6c5f07338f1259d0dbd8b7c9855b4044 -> 
+  custom:scripting/monoscript/fileName/LeanTouchSimulator.cs: 7f977229a3c44a1dd1c72bc57c8dd6e2 -> 3e524640731e212665988bfe815fe6e4
+  custom:scripting/monoscript/fileName/LeanScreenDepth.cs: ad4cf377b84906e9affb70b5c45d72a1 -> de4fa112ed93a02e7c1e2f12507b0637
+  custom:scripting/monoscript/fileName/LeanTouchEvents.cs: 477be79ee294e82b1c9638ac8781e1e6 -> a1b694f71eb461dcaa64a279f56f12ca
+  custom:scripting/monoscript/fileName/LeanFingerOld.cs: 57235a6cf9ae93060300f2c5a94c9935 -> 35819bf94e8eb2edd406c3aa43e5b971
+  custom:scripting/monoscript/fileName/LeanFinger.cs: f934e7a138c262abbef3dcf6f594b97f -> 0ef99c85a0680e0c0d2de5fbc26c04ab
+  custom:scripting/monoscript/fileName/LeanSelectableBehaviour.cs: c6c74f0ab075f387b4d7dc633e1a8c41 -> aea8ab7c18ce5ca65961f3792130af8b
+  custom:scripting/monoscript/fileName/LeanSnapshot.cs: 95077167d74245281ed69d71fbe9209c -> 74b2700d6379ffb071906122051a33a9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LeanTwistRotateAxis.cs: b210e388cd9a151819ec6ceab81a6dcb -> 2f226864be16cb3af60ad5e8da513fac
+  custom:scripting/monoscript/fileName/LeanSelect.cs: ca0ebbf891d5caecc554bbfe86eea9ed -> 8fb74c98184dc001a37d3276224bc7aa
+  custom:scripting/monoscript/fileName/CwDemoButtonBuilder.cs: 51acbccdbd33625be42712b2a80cfa13 -> e79d70dd4f91651d1857828a7fc593e1
