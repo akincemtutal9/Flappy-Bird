@@ -1,0 +1,1832 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'tr' Physical Memory: 8072 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Akin-Unity/Flappy-Bird
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56924
+Successfully changed project path to: C:/Akin-Unity/Flappy-Bird
+C:/Akin-Unity/Flappy-Bird
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35852] Host "[IP] 192.168.2.111 [Port] 0 [Flags] 2 [Guid] 1071880165 [EditorId] 1071880165 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BNTEN1C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [35852] Host "[IP] 192.168.2.111 [Port] 0 [Flags] 2 [Guid] 1071880165 [EditorId] 1071880165 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BNTEN1C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 19.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Akin-Unity/Flappy-Bird/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX110 (ID=0x174e)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   30.0.14.7212
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.025942 seconds.
+- Loaded All Assemblies, in  0.956 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 527 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.236 seconds
+Domain Reload Profiling: 2191ms
+	BeginReloadAssembly (286ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (151ms)
+	LoadAllAssembliesAndSetupDomain (403ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (396ms)
+			TypeCache.Refresh (392ms)
+				TypeCache.ScanAssembly (351ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1237ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1098ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (782ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.284 seconds
+Refreshing native plugins compatible for Editor in 7.40 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.582 seconds
+Domain Reload Profiling: 2864ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (884ms)
+		LoadAssemblies (574ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (453ms)
+			TypeCache.Refresh (383ms)
+				TypeCache.ScanAssembly (348ms)
+			ScanForSourceGeneratedMonoScriptInfo (51ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1584ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1211ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (735ms)
+			ProcessInitializeOnLoadMethodAttributes (243ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 11.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5745 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 104 unused Assets / (1.0 MB). Loaded Objects now: 6190.
+Memory consumption went from 231.5 MB to 230.4 MB.
+Total: 11.188900 ms (FindLiveObjects: 0.891700 ms CreateObjectMapping: 1.753400 ms MarkObjects: 6.613000 ms  DeleteObjects: 1.928900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 939974.883098 seconds.
+  path: Assets/Plugins/CW
+  artifactKey: Guid(0e72c2f75154f124e8ccb466c90abb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW using Guid(0e72c2f75154f124e8ccb466c90abb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cae2e9edfbfa87c15eade3f423056e8') in 0.004849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.021 seconds
+Refreshing native plugins compatible for Editor in 8.37 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.063 seconds
+Domain Reload Profiling: 3080ms
+	BeginReloadAssembly (351ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (528ms)
+		LoadAssemblies (617ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (94ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (48ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2064ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (942ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (197ms)
+			ProcessInitializeOnLoadAttributes (512ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5593 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 MB). Loaded Objects now: 6196.
+Memory consumption went from 206.7 MB to 205.7 MB.
+Total: 6.980900 ms (FindLiveObjects: 0.682900 ms CreateObjectMapping: 0.508700 ms MarkObjects: 4.961100 ms  DeleteObjects: 0.827000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.982 seconds
+Refreshing native plugins compatible for Editor in 8.49 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.477 seconds
+Domain Reload Profiling: 3454ms
+	BeginReloadAssembly (333ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (503ms)
+		LoadAssemblies (595ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (46ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2478ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1203ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (100ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (279ms)
+			ProcessInitializeOnLoadAttributes (653ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5593 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 MB). Loaded Objects now: 6201.
+Memory consumption went from 208.6 MB to 207.6 MB.
+Total: 7.697300 ms (FindLiveObjects: 0.985100 ms CreateObjectMapping: 1.277900 ms MarkObjects: 4.754600 ms  DeleteObjects: 0.677900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 41.945285 seconds.
+  path: Assets/GameAssets/Plugins/CW/LeanPool
+  artifactKey: Guid(c6e7ee7a86c7e8441a7f7df8a9985464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Plugins/CW/LeanPool using Guid(c6e7ee7a86c7e8441a7f7df8a9985464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f414e40d8e0ea54b9388d229c2a21c') in 0.002897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef
+  artifactKey: Guid(174bc9f391f1b7f4292b3824c5019a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef using Guid(174bc9f391f1b7f4292b3824c5019a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1407d4235155eb3d56543d142547a2fa') in 0.000753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.718 seconds
+Refreshing native plugins compatible for Editor in 12.07 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.287 seconds
+Domain Reload Profiling: 8998ms
+	BeginReloadAssembly (1238ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (310ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (314ms)
+	RebuildCommonClasses (108ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (2236ms)
+		LoadAssemblies (2409ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (58ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (90ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (5288ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1360ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (124ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (298ms)
+			ProcessInitializeOnLoadAttributes (742ms)
+			ProcessInitializeOnLoadMethodAttributes (166ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 15.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5593 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 MB). Loaded Objects now: 6206.
+Memory consumption went from 210.5 MB to 209.5 MB.
+Total: 7.430800 ms (FindLiveObjects: 0.545300 ms CreateObjectMapping: 0.761400 ms MarkObjects: 5.190900 ms  DeleteObjects: 0.929900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.004 seconds
+Refreshing native plugins compatible for Editor in 7.71 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.777 seconds
+Domain Reload Profiling: 4775ms
+	BeginReloadAssembly (293ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (579ms)
+		LoadAssemblies (689ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (3778ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (897ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (514ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5593 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 MB). Loaded Objects now: 6211.
+Memory consumption went from 212.5 MB to 211.5 MB.
+Total: 7.678100 ms (FindLiveObjects: 0.783200 ms CreateObjectMapping: 0.875000 ms MarkObjects: 5.319400 ms  DeleteObjects: 0.698600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.409 seconds
+Refreshing native plugins compatible for Editor in 7.13 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.462 seconds
+Domain Reload Profiling: 4864ms
+	BeginReloadAssembly (350ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (900ms)
+		LoadAssemblies (975ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (63ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (3463ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1022ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (556ms)
+			ProcessInitializeOnLoadMethodAttributes (202ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 11.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5593 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 MB). Loaded Objects now: 6216.
+Memory consumption went from 214.3 MB to 213.3 MB.
+Total: 13.523000 ms (FindLiveObjects: 1.304400 ms CreateObjectMapping: 2.366100 ms MarkObjects: 8.909000 ms  DeleteObjects: 0.942200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.118 seconds
+Refreshing native plugins compatible for Editor in 10.84 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.560 seconds
+Domain Reload Profiling: 6673ms
+	BeginReloadAssembly (335ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (608ms)
+		LoadAssemblies (741ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (5562ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2436ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (174ms)
+			SetLoadedEditorAssemblies (24ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (499ms)
+			ProcessInitializeOnLoadAttributes (1360ms)
+			ProcessInitializeOnLoadMethodAttributes (350ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (70ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 21.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5593 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 MB). Loaded Objects now: 6221.
+Memory consumption went from 216.3 MB to 215.3 MB.
+Total: 14.841100 ms (FindLiveObjects: 0.954500 ms CreateObjectMapping: 1.781600 ms MarkObjects: 11.004100 ms  DeleteObjects: 1.098200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.857 seconds
+Refreshing native plugins compatible for Editor in 5.98 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.123 seconds
+Domain Reload Profiling: 3977ms
+	BeginReloadAssembly (270ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (548ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (3125ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1620ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (88ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (268ms)
+			ProcessInitializeOnLoadAttributes (887ms)
+			ProcessInitializeOnLoadMethodAttributes (339ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (62ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 18.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5593 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 MB). Loaded Objects now: 6226.
+Memory consumption went from 218.3 MB to 217.2 MB.
+Total: 15.232300 ms (FindLiveObjects: 1.949900 ms CreateObjectMapping: 2.447400 ms MarkObjects: 9.132400 ms  DeleteObjects: 1.700300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.906 seconds
+Refreshing native plugins compatible for Editor in 7.65 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.674 seconds
+Domain Reload Profiling: 3574ms
+	BeginReloadAssembly (282ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (475ms)
+		LoadAssemblies (594ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2674ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1352ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (92ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (282ms)
+			ProcessInitializeOnLoadAttributes (745ms)
+			ProcessInitializeOnLoadMethodAttributes (204ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 19.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5593 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 MB). Loaded Objects now: 6231.
+Memory consumption went from 220.2 MB to 219.2 MB.
+Total: 19.072400 ms (FindLiveObjects: 3.194100 ms CreateObjectMapping: 1.433700 ms MarkObjects: 10.827700 ms  DeleteObjects: 3.609500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.835 seconds
+Refreshing native plugins compatible for Editor in 7.20 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.788 seconds
+Domain Reload Profiling: 3619ms
+	BeginReloadAssembly (288ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (415ms)
+		LoadAssemblies (528ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (2789ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1347ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (88ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (276ms)
+			ProcessInitializeOnLoadAttributes (756ms)
+			ProcessInitializeOnLoadMethodAttributes (195ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 12.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5593 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 MB). Loaded Objects now: 6236.
+Memory consumption went from 222.1 MB to 221.1 MB.
+Total: 8.620200 ms (FindLiveObjects: 1.647900 ms CreateObjectMapping: 0.771500 ms MarkObjects: 4.681000 ms  DeleteObjects: 1.518100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.920 seconds
+Refreshing native plugins compatible for Editor in 8.53 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.828 seconds
+Domain Reload Profiling: 3740ms
+	BeginReloadAssembly (268ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (482ms)
+		LoadAssemblies (585ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2830ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1355ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (92ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (274ms)
+			ProcessInitializeOnLoadAttributes (759ms)
+			ProcessInitializeOnLoadMethodAttributes (203ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 10.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5593 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 MB). Loaded Objects now: 6241.
+Memory consumption went from 224.0 MB to 223.0 MB.
+Total: 9.859100 ms (FindLiveObjects: 0.802000 ms CreateObjectMapping: 1.780900 ms MarkObjects: 5.551000 ms  DeleteObjects: 1.721700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.244 seconds
+Refreshing native plugins compatible for Editor in 6.84 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.516 seconds
+Domain Reload Profiling: 5756ms
+	BeginReloadAssembly (349ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (113ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (753ms)
+		LoadAssemblies (871ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (4517ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1337ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (96ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (302ms)
+			ProcessInitializeOnLoadAttributes (713ms)
+			ProcessInitializeOnLoadMethodAttributes (199ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 12.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5593 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 MB). Loaded Objects now: 6246.
+Memory consumption went from 226.0 MB to 224.9 MB.
+Total: 13.726300 ms (FindLiveObjects: 0.776100 ms CreateObjectMapping: 1.936200 ms MarkObjects: 7.502600 ms  DeleteObjects: 3.507800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.718 seconds
+Refreshing native plugins compatible for Editor in 10.81 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.267 seconds
+Domain Reload Profiling: 6977ms
+	BeginReloadAssembly (557ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (46ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (151ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (994ms)
+		LoadAssemblies (1130ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (51ms)
+				TypeCache.ScanAssembly (19ms)
+			ScanForSourceGeneratedMonoScriptInfo (66ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (5268ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1727ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (133ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (375ms)
+			ProcessInitializeOnLoadAttributes (900ms)
+			ProcessInitializeOnLoadMethodAttributes (277ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (56ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 11.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5771 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 MB). Loaded Objects now: 6429.
+Memory consumption went from 231.3 MB to 230.3 MB.
+Total: 6.875000 ms (FindLiveObjects: 0.734100 ms CreateObjectMapping: 0.770200 ms MarkObjects: 4.668300 ms  DeleteObjects: 0.700900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.696 seconds
+Refreshing native plugins compatible for Editor in 9.73 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.117 seconds
+Domain Reload Profiling: 7807ms
+	BeginReloadAssembly (445ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (114ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (1084ms)
+		LoadAssemblies (1241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (70ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (42ms)
+	FinalizeReload (6119ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1621ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (166ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (370ms)
+			ProcessInitializeOnLoadAttributes (852ms)
+			ProcessInitializeOnLoadMethodAttributes (202ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 24.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5771 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 MB). Loaded Objects now: 6434.
+Memory consumption went from 233.3 MB to 232.3 MB.
+Total: 10.048800 ms (FindLiveObjects: 0.910100 ms CreateObjectMapping: 0.675500 ms MarkObjects: 6.098900 ms  DeleteObjects: 2.361000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 13.653 seconds
+Refreshing native plugins compatible for Editor in 111.36 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+PlayFab.PfEditor.PlayFabEditorPrefsSO:get_Instance () (at Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorPrefsSO.cs:38)
+PlayFab.PfEditor.PlayFabEditor/Startup:.cctor () (at Assets/PlayFabEditorExtensions/Editor/PlayFabEditor.cs:86)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorPrefsSO.cs line 38]
+
+UnityEngine.UnityException: Creating asset at path Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabEditorPrefsSO.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at PlayFab.PfEditor.PlayFabEditorPrefsSO.get_Instance () [0x00084] in C:\Akin-Unity\Flappy-Bird\Assets\PlayFabEditorExtensions\Editor\Scripts\Utils\PlayFabEditorPrefsSO.cs:38 
+  at PlayFab.PfEditor.PlayFabEditor+Startup..cctor () [0x00000] in C:\Akin-Unity\Flappy-Bird\Assets\PlayFabEditorExtensions\Editor\PlayFabEditor.cs:86 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 15.925 seconds
+Domain Reload Profiling: 32784ms
+	BeginReloadAssembly (1017ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (242ms)
+	RebuildCommonClasses (116ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (15569ms)
+		LoadAssemblies (11078ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1802ms)
+			TypeCache.Refresh (699ms)
+				TypeCache.ScanAssembly (37ms)
+			ScanForSourceGeneratedMonoScriptInfo (435ms)
+			ResolveRequiredComponents (606ms)
+	FinalizeReload (15927ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3046ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (170ms)
+			SetLoadedEditorAssemblies (33ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (416ms)
+			ProcessInitializeOnLoadAttributes (2220ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (44ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 23.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5802 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (1.0 MB). Loaded Objects now: 6472.
+Memory consumption went from 236.6 MB to 235.6 MB.
+Total: 16.033200 ms (FindLiveObjects: 1.105400 ms CreateObjectMapping: 1.101000 ms MarkObjects: 11.462300 ms  DeleteObjects: 2.360200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.450 seconds
+Refreshing native plugins compatible for Editor in 13.83 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.483 seconds
+Domain Reload Profiling: 6928ms
+	BeginReloadAssembly (488ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (118ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (1761ms)
+		LoadAssemblies (1876ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (36ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (68ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (4484ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1141ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (75ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (271ms)
+			ProcessInitializeOnLoadAttributes (637ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (50ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5771 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (1.0 MB). Loaded Objects now: 6476.
+Memory consumption went from 237.4 MB to 236.4 MB.
+Total: 9.938500 ms (FindLiveObjects: 1.019600 ms CreateObjectMapping: 0.591500 ms MarkObjects: 7.208100 ms  DeleteObjects: 0.791700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.619 seconds
+Refreshing native plugins compatible for Editor in 16.78 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.240 seconds
+Domain Reload Profiling: 9847ms
+	BeginReloadAssembly (3618ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (742ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (41ms)
+		CreateAndSetChildDomain (250ms)
+	RebuildCommonClasses (239ms)
+	RebuildNativeTypeToScriptingClass (54ms)
+	initialDomainReloadingComplete (294ms)
+	LoadAllAssembliesAndSetupDomain (1402ms)
+		LoadAssemblies (3386ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (247ms)
+			TypeCache.Refresh (60ms)
+				TypeCache.ScanAssembly (24ms)
+			ScanForSourceGeneratedMonoScriptInfo (131ms)
+			ResolveRequiredComponents (51ms)
+	FinalizeReload (4241ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1053ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (78ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (229ms)
+			ProcessInitializeOnLoadAttributes (580ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 12.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5861 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 MB). Loaded Objects now: 6571.
+Memory consumption went from 241.1 MB to 240.1 MB.
+Total: 13.205000 ms (FindLiveObjects: 0.982500 ms CreateObjectMapping: 1.307700 ms MarkObjects: 9.640200 ms  DeleteObjects: 1.271900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3405.546794 seconds.
+  path: Assets/PlayFabSDK
+  artifactKey: Guid(e53d5e839d5caa945b9b859abe15689b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayFabSDK using Guid(e53d5e839d5caa945b9b859abe15689b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32704082b93c73bb3c45d44122a323b0') in 0.011970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 44.464733 seconds.
+  path: Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef
+  artifactKey: Guid(8aa8a8085039f0e4ba1c8d6480d45262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef using Guid(8aa8a8085039f0e4ba1c8d6480d45262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae32d057d04237f0b42c8efa536755b7') in 0.002966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.965 seconds
+Refreshing native plugins compatible for Editor in 9.45 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.530 seconds
+Domain Reload Profiling: 6488ms
+	BeginReloadAssembly (432ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (120ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (1345ms)
+		LoadAssemblies (1465ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (55ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (4531ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1382ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (89ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (255ms)
+			ProcessInitializeOnLoadAttributes (820ms)
+			ProcessInitializeOnLoadMethodAttributes (190ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 12.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5771 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 154 unused Assets / (1.1 MB). Loaded Objects now: 6489.
+Memory consumption went from 241.5 MB to 240.4 MB.
+Total: 13.402600 ms (FindLiveObjects: 0.791000 ms CreateObjectMapping: 1.121400 ms MarkObjects: 10.144100 ms  DeleteObjects: 1.130100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/Plugins/CW/LeanPool/LeanPool.asmdef)
+Assembly with name 'LeanPool' already exists (Assets/GameAssets/Plugins/LeanPool/LeanPool.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 10.067 seconds
+Refreshing native plugins compatible for Editor in 14.42 ms, found 4 plugins.
+The file 'MemoryStream' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+Fatal Error! The file 'MemoryStream' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+Crash!!!
+SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Mono;.;C:\Akin-Unity\Flappy-Bird;C:\Akin-Unity\Flappy-Bird\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor;C:\Windows;C:\Windows\system32;', symOptions: 534, UserName: 'Lenovo'
+OS-Version: 10.0.0
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe:Unity.exe (00007FF7D3360000), size: 82337792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2022.3.13.37029
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFCC1050000), size: 2060288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFCBF940000), size: 774144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFCBEA90000), size: 3104768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\CRYPT32.dll:CRYPT32.dll (00007FFCBE900000), size: 1429504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\ucrtbase.dll:ucrtbase.dll (00007FFCBEE90000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\USER32.dll:USER32.dll (00007FFCBF600000), size: 1695744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\win32u.dll:win32u.dll (00007FFCBEA60000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\GDI32.dll:GDI32.dll (00007FFCBF220000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\gdi32full.dll:gdi32full.dll (00007FFCBEF90000), size: 1155072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\msvcp_win.dll:msvcp_win.dll (00007FFCBE760000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\s3tcompress.dll:s3tcompress.dll (00007FFC98150000), size: 180224 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\etccompress.dll:etccompress.dll (00007FFC70F60000), size: 5066752 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFC60540000), size: 10067968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.3.0
+C:\Windows\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFCC03C0000), size: 712704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\msvcrt.dll:msvcrt.dll (00007FFCBF490000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.3570
+C:\Windows\System32\sechost.dll:sechost.dll (00007FFCC0F70000), size: 638976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\RPCRT4.dll:RPCRT4.dll (00007FFCC0270000), size: 1204224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFC78B70000), size: 1826816 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FFC7E100000), size: 1433600 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\SHELL32.dll:SHELL32.dll (00007FFCBFA10000), size: 7618560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFCC0160000), size: 348160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\ole32.dll:ole32.dll (00007FFCC0870000), size: 1224704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFCA5C10000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1812.6001
+C:\Windows\System32\combase.dll:combase.dll (00007FFCC0470000), size: 3489792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFC73D80000), size: 1187840 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 6582272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
+C:\Windows\System32\IMM32.dll:IMM32.dll (00007FFCBF400000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFCC0B00000), size: 4644864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\WS2_32.dll:WS2_32.dll (00007FFCBF8D0000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFCBED90000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\bcrypt.dll:bcrypt.dll (00007FFCBE730000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFCBF530000), size: 839680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\WINTRUST.dll:WINTRUST.dll (00007FFCBE800000), size: 421888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFCAE6F0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFCA1990000), size: 1200128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFC7E0E0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.38.33130.0
+C:\Windows\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFC980C0000), size: 577536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.38.33130.0
+C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFCB7E30000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFCBCE40000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFCBC000000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFCB78F0000), size: 1089536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFCA2240000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFC706C0000), size: 8990720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
+C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFCB5670000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFCA1940000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.38.33130.0
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFC75A10000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
+C:\Windows\SYSTEM32\Secur32.dll:Secur32.dll (00007FFCAB360000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFCBDAF0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\OpenRL.dll:OpenRL.dll (000001AE5BFB0000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
+C:\Windows\SYSTEM32\MSVCR100.dll:MSVCR100.dll (000000005EAE0000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.473
+C:\Windows\SYSTEM32\MSVCP100.dll:MSVCP100.dll (000000005EA40000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.473
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\embree.dll:embree.dll (00007FFC5F550000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
+C:\Windows\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFCBDE00000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\tbb.dll:tbb.dll (00007FFC759A0000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
+C:\Windows\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FFC73CD0000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
+C:\Windows\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FFC73BE0000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
+C:\Windows\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFCBE5E0000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (000001AE5CBF0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
+C:\Windows\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFCBE230000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\bcryptprimitives.dll:bcryptprimitives.dll (00007FFCBE870000), size: 532480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFCBD0B0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FFCBBD40000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFCBC3F0000), size: 7974912 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\Wldp.dll:Wldp.dll (00007FFCBE0A0000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\SHCORE.dll:SHCORE.dll (00007FFCBF110000), size: 708608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\profapi.dll:profapi.dll (00007FFCBE660000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\system32\IconCodecService.dll:IconCodecService.dll (00007FFCB6AC0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
+C:\Windows\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFCB7700000), size: 1785856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\clbcatq.dll:clbcatq.dll (00007FFCC01C0000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\Windows\System32\netprofm.dll:netprofm.dll (00007FFCBABF0000), size: 258048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\npmproxy.dll:npmproxy.dll (00007FFCB86B0000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\NSI.dll:NSI.dll (00007FFCBFA00000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFCB88B0000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFCB89B0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFCBDB30000), size: 827392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\system32\napinsp.dll:napinsp.dll (00007FFCAB5A0000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\system32\pnrpnsp.dll:pnrpnsp.dll (00007FFC9F820000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\system32\wshbth.dll:wshbth.dll (00007FFC98340000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\system32\NLAapi.dll:NLAapi.dll (00007FFCBAA50000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\winrnr.dll:winrnr.dll (00007FFC856B0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFCB6670000), size: 532480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFCB6B10000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFC73A60000), size: 1519616 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FFC70630000), size: 540672 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (00007FFCB8A30000), size: 544768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFCBE3F0000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\d3d11.dll:d3d11.dll (00007FFCB9DD0000), size: 2502656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\dxgi.dll:dxgi.dll (00007FFCBCFB0000), size: 995328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\DriverStore\FileRepository\nvlti.inf_amd64_46e829dc1122a93a\nvldumdx.dll:nvldumdx.dll (00007FFC6F570000), size: 1073152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 30.0.14.7212
+C:\Windows\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFCB5610000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\drvstore.dll:drvstore.dll (00007FFCB6790000), size: 1343488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FFCBE010000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\imagehlp.dll:imagehlp.dll (00007FFCC03A0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFCBDFF0000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\system32\rsaenh.dll:rsaenh.dll (00007FFCBD710000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\DriverStore\FileRepository\nvlti.inf_amd64_46e829dc1122a93a\nvwgf2umx.dll:nvwgf2umx.dll (00007FFC41E70000), size: 77619200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 30.0.14.7212
+C:\Windows\SYSTEM32\dxcore.dll:dxcore.dll (00007FFCB7A80000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFCB6A70000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFCB68E0000), size: 589824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFCB5650000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\system32\wbem\fastprox.dll:fastprox.dll (00007FFCB5680000), size: 1093632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\amsi.dll:amsi.dll (00007FFCB4B90000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\USERENV.dll:USERENV.dll (00007FFCBE620000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\system32\WRusr.dll:WRusr.dll (00007FFCA9570000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.0.35.12
+C:\Windows\System32\PSAPI.DLL:PSAPI.DLL (00007FFCC0860000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\MSIMG32.dll:MSIMG32.dll (00007FFCA96D0000), size: 28672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\cudart64_90.dll:cudart64_90.dll (00007FFC73700000), size: 397312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.14.11.9000
+C:\Windows\SYSTEM32\opencl.dll:opencl.dll (00007FFC6D0A0000), size: 1482752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.1.0
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\radeonrays.dll:radeonrays.dll (00007FFC6D010000), size: 557056 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFC5CD00000), size: 10825728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Data\PlaybackEngines\iOSSupport\x64\UnityEditor.iOS.Native.dll:UnityEditor.iOS.Native.dll (00007FFC71770000), size: 339968 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFCBB1E0000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.3570
+C:\Windows\SYSTEM32\edputil.dll:edputil.dll (00007FFCAE5E0000), size: 147456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FFCA91B0000), size: 1335296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\urlmon.dll:urlmon.dll (00007FFCB4710000), size: 2019328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.19041.3570
+C:\Windows\SYSTEM32\netutils.dll:netutils.dll (00007FFCBDC50000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\srvcli.dll:srvcli.dll (00007FFCB6A40000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\iertutil.dll:iertutil.dll (00007FFCB5AD0000), size: 2867200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.19041.3570
+C:\Windows\SYSTEM32\virtdisk.dll:virtdisk.dll (00007FFCA5E40000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\FLTLIB.DLL:FLTLIB.DLL (00007FFCABE50000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\wintypes.dll:wintypes.dll (00007FFCBA770000), size: 1396736 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\appresolver.dll:appresolver.dll (00007FFC9F9C0000), size: 589824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\Bcp47Langs.dll:Bcp47Langs.dll (00007FFCB54F0000), size: 372736 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\SLC.dll:SLC.dll (00007FFCBD250000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\sppc.dll:sppc.dll (00007FFCBD220000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\OneCoreCommonProxyStub.dll:OneCoreCommonProxyStub.dll (00007FFC9F510000), size: 520192 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\System32\OneCoreUAPCommonProxyStub.dll:OneCoreUAPCommonProxyStub.dll (00007FFCB3A10000), size: 8187904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFCBCC50000), size: 1982464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3570
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FFCBEABCF19 (KERNELBASE) RaiseException
+0x00007FF7D4F1E230 (Unity) EditorMonoConsole::LogToConsoleImplementation
+0x00007FF7D4F1ECAD (Unity) EditorMonoConsole::LogToConsoleImplementation
+0x00007FF7D5BD636F (Unity) DebugStringToFilePostprocessedStacktrace
+0x00007FF7D5BD5ACD (Unity) DebugStringToFile
+0x00007FF7D4142962 (Unity) CachedReader::OutOfBoundsError
+0x00007FF7D4143974 (Unity) CachedReader::UpdateReadCache
+0x00007FF7D43F90C6 (Unity) ExecuteSerializationCommands<JSONRead>
+0x00007FF7D4413878 (Unity) <lambda_580fa16bd23d18c3e466e7b58feca0a1>::operator()
+0x00007FF7D440D551 (Unity) TransferScriptingObject<StreamedBinaryRead>
+0x00007FF7D440EE89 (Unity) SerializableManagedRefTransfer::TransferScriptingObjectWithSerializedRefSupport<StreamedBinaryRead>
+0x00007FF7D4427266 (Unity) SerializableManagedRefTransfer::TransferBinaryInstanceOnly
+0x00007FF7D43FAC3F (Unity) SerializableManagedRefTransfer::RestoreBackupImpl<SerializableManagedRefBackupGenerator>
+0x00007FF7D43FAA65 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007FF7D44D5AB6 (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007FF7D4419E5F (Unity) MonoManager::FinalizeReload
+0x00007FF7D5812EFA (Unity) ScriptingInitializer::FinalizeReload
+0x00007FF7D53C01FB (Unity) LoadUserAssemblies
+0x00007FF7D58C1585 (Unity) <lambda_b37b41f03089e3cb3f55061bbc93253d>::operator()
+0x00007FF7D58FB5D2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007FF7D58E757E (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007FF7D58E91E4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007FF7D58F997C (Unity) IOService::Run
+0x00007FF7D58CDB9F (Unity) AssetImportWorkerClient::Run
+0x00007FF7D5898757 (Unity) RunAssetImportWorkerClientV2
+0x00007FF7D58987DB (Unity) RunAssetImporterV2
+0x00007FF7D5097DA3 (Unity) Application::InitializeProject
+0x00007FF7D5522BA5 (Unity) WinMain
+0x00007FF7D690870E (Unity) __scrt_common_main_seh
+0x00007FFCBF957344 (KERNEL32) BaseThreadInitThunk
+0x00007FFCC10A26B1 (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/Lenovo/AppData/Local/Temp/Unity/Editor/Crashes
