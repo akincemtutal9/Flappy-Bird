@@ -1,8 +1,9 @@
 using UnityEngine;
+using Lean.Pool;
 
 public class PipeDestroy : MonoBehaviour
 {
     private void Start(){
-        Destroy(gameObject, 10f);
+        LeanPool.Despawn(gameObject, 8f);
     }
 }

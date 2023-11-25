@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using Lean.Pool;
 
 public class PipeSpawner : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class PipeSpawner : MonoBehaviour
         while(true)
         {
             var randomY = Random.Range(minY, maxY);
-            Instantiate(pipePrefab, new Vector3(transform.position.x,randomY,transform.position.z), Quaternion.identity);
+            var pipe = LeanPool.Spawn(pipePrefab, new Vector3(transform.position.x,randomY,transform.position.z), Quaternion.identity);
             yield return new WaitForSeconds(spawnRate);
         }
     }
