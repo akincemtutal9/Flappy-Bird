@@ -2,11 +2,8 @@ using UnityEngine;
 using Lean.Touch;   
 public class GameStateManager : MonoBehaviour
 {
-    private bool isGameStarted;
-    
-    private void Start()
+    private void Awake()
     {
-        isGameStarted = false;
         Time.timeScale = 0;
     }
     private void OnEnable()
@@ -25,7 +22,6 @@ public class GameStateManager : MonoBehaviour
     }
     private void StartGame()
     {
-        isGameStarted = true;
         Time.timeScale = 1;
     }
 }
