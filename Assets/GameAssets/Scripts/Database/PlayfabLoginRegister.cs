@@ -11,30 +11,29 @@ public class PlayfabLoginRegister : MonoBehaviour
     private const string RegisterScene = nameof(RegisterScene);
     private const string Main = nameof(Main);
     [SerializeField] private TMP_InputField usernameInputField;
+    [SerializeField] private TMP_InputField emailInputField;
+    [SerializeField] private TMP_InputField passwordInputField;
+   
     [SerializeField] private TMP_Text errorMessageText;
     [SerializeField] private TMP_Text successMessageText;
-    [SerializeField] private Button login;
-    private const string gmailMock = "@gmail.com";
-    private string gmail = "";
-
+    
     private void Start()
     {
         if(SceneManager.GetActiveScene().name != RegisterScene){
-            LoginUser();  
+            TryLogin();  
         }
     }
+
     public void RegisterUser()
     {
         if (checkIfUsernameBlank() || checkIfUsernameHasBlanks())
         {
             return;
         }
-
-        gmail = usernameInputField.text + gmailMock;
         var request = new RegisterPlayFabUserRequest
         {
-            Email = gmail,
-            Password = "12345678",
+            Email = emailInputField.text,
+            Password = passwordInputField.text,
             DisplayName = usernameInputField.text,
             Username = usernameInputField.text,
             RequireBothUsernameAndEmail = false
@@ -47,8 +46,8 @@ public class PlayfabLoginRegister : MonoBehaviour
     {
         var request = new LoginWithEmailAddressRequest
         {
-            Email = PlayerPrefs.GetString("EMAIL"),
-            Password = PlayerPrefs.GetString("PASSWORD"),
+            Email = emailInputField.text,
+            Password = passwordInputField.text ,
         };
         try{
             errorMessageText.text = "";
@@ -64,9 +63,6 @@ public class PlayfabLoginRegister : MonoBehaviour
     private void OnRegisterSuccess(RegisterPlayFabUserResult result)
     {
         successMessageText.text = "";
-        PlayerPrefs.SetString("EMAIL", gmail);
-        PlayerPrefs.SetString("PASSWORD", "12345678");
-        //PlayerPrefs.SetString("USERNAME", usernameInputField.text);
         LoginUser();
     }
     private void OnRegisterFailure(PlayFabError error)
@@ -82,6 +78,8 @@ public class PlayfabLoginRegister : MonoBehaviour
     private void OnLoginSuccess(LoginResult result)
     {
         try{
+            PlayerPrefs.SetString("EMAIL", emailInputField.text);
+            PlayerPrefs.SetString("PASSWORD", passwordInputField.text);
             successMessageText.text = "";
             errorMessageText.text = "";
         }
@@ -97,6 +95,24 @@ public class PlayfabLoginRegister : MonoBehaviour
         SceneManager.LoadScene(RegisterScene);
         errorMessageText.text = error.ErrorMessage;
         successMessageText.text = "";
+    }
+
+    public void TryLogin(){
+        var request = new LoginWithEmailAddressRequest
+        {
+            Email = PlayerPrefs.GetString("EMAIL"),
+            Password = PlayerPrefs.GetString("PASSWORD"),
+        };
+        try{
+            errorMessageText.text = "";
+            successMessageText.text = "Logging in...";
+        }
+        catch(Exception e){
+            Debug.Log(e);
+        }
+        finally{
+            PlayFabClientAPI.LoginWithEmailAddress(request, OnLoginSuccess, OnLoginFailure);
+        }
     }
     private bool checkIfUsernameBlank()
     {
