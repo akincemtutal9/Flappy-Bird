@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using PlayFab.ClientModels;
 using PlayFab;
 
-public class ScoreManager : MonoBehaviour
+public class ScoreManagerEasy : MonoBehaviour
 {
     private int score = 0;
     private int highScore = 0;
@@ -19,7 +19,7 @@ public class ScoreManager : MonoBehaviour
     }
     private void Start()
     {
-        highScore = PlayerPrefs.GetInt("HighScore", 0);
+        highScore = PlayerPrefs.GetInt("HighScoreEasy", 0);
     }
 
     private void AddScore()
@@ -28,7 +28,7 @@ public class ScoreManager : MonoBehaviour
         if (score > highScore)
         {
             highScore = score;
-            PlayerPrefs.SetInt("HighScore", highScore);
+            PlayerPrefs.SetInt("HighScoreEasy", highScore);
             try
             {
                 var request = new UpdatePlayerStatisticsRequest
@@ -37,7 +37,7 @@ public class ScoreManager : MonoBehaviour
                 {
                     new StatisticUpdate
                     {
-                        StatisticName = "FlappyBird",
+                        StatisticName = "FlappyBird-Easy",
                         Value = highScore
                     }
                 }

@@ -66,7 +66,7 @@ public class PlayfabLoginRegister : MonoBehaviour
         successMessageText.text = "";
         PlayerPrefs.SetString("EMAIL", gmail);
         PlayerPrefs.SetString("PASSWORD", "12345678");
-        PlayerPrefs.SetString("USERNAME", usernameInputField.text);
+        //PlayerPrefs.SetString("USERNAME", usernameInputField.text);
         LoginUser();
     }
     private void OnRegisterFailure(PlayFabError error)
@@ -77,11 +77,13 @@ public class PlayfabLoginRegister : MonoBehaviour
         }else{
             errorMessageText.text = error.ErrorMessage;
         }
+        successMessageText.text = "";
     }
     private void OnLoginSuccess(LoginResult result)
     {
         try{
             successMessageText.text = "";
+            errorMessageText.text = "";
         }
         catch(Exception e){
             Debug.Log(e);
@@ -93,6 +95,8 @@ public class PlayfabLoginRegister : MonoBehaviour
     private void OnLoginFailure(PlayFabError error)
     {
         SceneManager.LoadScene(RegisterScene);
+        errorMessageText.text = error.ErrorMessage;
+        successMessageText.text = "";
     }
     private bool checkIfUsernameBlank()
     {
@@ -103,7 +107,6 @@ public class PlayfabLoginRegister : MonoBehaviour
         }
         return false;
     }
-
     private bool checkIfUsernameHasBlanks()
     {
         if (usernameInputField.text.Contains(" "))

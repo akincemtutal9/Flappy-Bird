@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     [Header("ScoreText")]
@@ -23,19 +24,40 @@ public class UIManager : MonoBehaviour
         EventManager.AddHandler(GameEvent.OnUpdateUI,UpdateScoreUI);
         EventManager.AddHandler(GameEvent.OnUpdateUI,StartGame);
         EventManager.AddHandler(GameEvent.OnDie,ShowGameOverPanel);
-        EventManager.AddHandler(GameEvent.OnDie,()=>{gameScoreText.text = FindObjectOfType<ScoreManager>().GetScore().ToString();});
-        EventManager.AddHandler(GameEvent.OnDie,()=>{highScoreText.text = FindObjectOfType<ScoreManager>().GetHighScore().ToString();});
+        EventManager.AddHandler(GameEvent.OnDie,UpdateScoreText);
+        EventManager.AddHandler(GameEvent.OnDie,UpdateHighScoreText);
     }
     private void OnDisable()
     {
         EventManager.RemoveHandler(GameEvent.OnUpdateUI, UpdateScoreUI);
         EventManager.RemoveHandler(GameEvent.OnDie, ShowGameOverPanel);
         EventManager.RemoveHandler(GameEvent.OnUpdateUI,StartGame);
-        EventManager.RemoveHandler(GameEvent.OnDie,()=>{gameScoreText.text = FindObjectOfType<ScoreManager>().GetScore().ToString();});
-        EventManager.RemoveHandler(GameEvent.OnDie,()=>{highScoreText.text = FindObjectOfType<ScoreManager>().GetHighScore().ToString();});
+        EventManager.RemoveHandler(GameEvent.OnDie,UpdateScoreText);
+        EventManager.RemoveHandler(GameEvent.OnDie,UpdateHighScoreText);
     }
     private void UpdateScoreUI(){
-        scoreText.text = FindObjectOfType<ScoreManager>().GetScore().ToString();
+        if(SceneManager.GetActiveScene().name == "Game"){
+            scoreText.text = FindObjectOfType<ScoreManager>().GetScore().ToString();
+        }
+        else if(SceneManager.GetActiveScene().name == "GameEasy"){
+            scoreText.text = FindObjectOfType<ScoreManagerEasy>().GetScore().ToString();
+        }
+    }
+    private void UpdateHighScoreText(){
+        if(SceneManager.GetActiveScene().name == "Game"){
+            highScoreText.text = FindObjectOfType<ScoreManager>().GetHighScore().ToString();
+        }
+        else if(SceneManager.GetActiveScene().name == "GameEasy"){
+            highScoreText.text = FindObjectOfType<ScoreManagerEasy>().GetHighScore().ToString();
+        }
+    }
+    private void UpdateScoreText(){
+        if(SceneManager.GetActiveScene().name == "Game"){
+            gameScoreText.text = FindObjectOfType<ScoreManager>().GetScore().ToString();
+        }
+        else if(SceneManager.GetActiveScene().name == "GameEasy"){
+            gameScoreText.text = FindObjectOfType<ScoreManagerEasy>().GetScore().ToString();
+        }
     }
     private void ShowGameOverPanel(){
         StartCoroutine(WaitForSeconds(2f));
