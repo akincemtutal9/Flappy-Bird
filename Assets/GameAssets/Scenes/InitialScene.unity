@@ -610,7 +610,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Flappy Bird
+  m_text: Fly Birds
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1ac1facbd413af04ea4067ca514cae00, type: 2}
   m_sharedMaterial: {fileID: 8929471371929185936, guid: 1ac1facbd413af04ea4067ca514cae00, type: 2}

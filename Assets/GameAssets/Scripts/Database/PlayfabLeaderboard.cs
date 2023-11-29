@@ -50,6 +50,12 @@ public class PlayfabLeaderboard : MonoBehaviour
             texts[1].text = (item.Position + 1).ToString();
             texts[2].text = item.DisplayName;
             texts[3].text = item.StatValue.ToString();
+            if(item.PlayFabId == PlayFabSettings.staticPlayer.PlayFabId){
+                foreach (var text in texts)
+                {
+                    text.color = Color.yellow;
+                }
+            }
         }
     }
     private void OnLeaderboardGetError(PlayFabError error)

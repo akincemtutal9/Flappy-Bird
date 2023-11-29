@@ -45,10 +45,12 @@ public class UIManager : MonoBehaviour
     }
     private void UpdateHighScoreText(){
         if(SceneManager.GetActiveScene().name == "Game"){
-            highScoreText.text = FindObjectOfType<ScoreManager>().GetHighScore().ToString();
+            highScoreText.text = PlayerPrefs.GetInt("HighScore").ToString();
+            Debug.Log("HighScore: " + PlayerPrefs.GetInt("HighScore"));
         }
         else if(SceneManager.GetActiveScene().name == "GameEasy"){
-            highScoreText.text = FindObjectOfType<ScoreManagerEasy>().GetHighScore().ToString();
+            highScoreText.text = PlayerPrefs.GetInt("HighScoreEasy").ToString();
+            Debug.Log("HighScoreEasy: " + PlayerPrefs.GetInt("HighScoreEasy"));
         }
     }
     private void UpdateScoreText(){

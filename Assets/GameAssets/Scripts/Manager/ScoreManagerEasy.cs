@@ -23,35 +23,35 @@ public class ScoreManagerEasy : MonoBehaviour
     }
 
     private void GetHighScoreFromLeaderboard()
+    {
+        var request = new GetLeaderboardRequest
         {
-            var request = new GetLeaderboardRequest
-            {
-                StatisticName = "FlappyBird-Easy",
-                StartPosition = 0,
-                MaxResultsCount = 1
-            };
+            StatisticName = "FlappyBird-Easy",
+            StartPosition = 0,
+            MaxResultsCount = 99
+        };
 
-            PlayFabClientAPI.GetLeaderboard(request, OnGetLeaderboardSuccess, OnGetLeaderboardError);
-        }
+        PlayFabClientAPI.GetLeaderboard(request, OnGetLeaderboardSuccess, OnGetLeaderboardError);
+    }
 
-        private void OnGetLeaderboardSuccess(GetLeaderboardResult result)
+    private void OnGetLeaderboardSuccess(GetLeaderboardResult result)
+    {
+        foreach (var entry in result.Leaderboard)
         {
-            if (result.Leaderboard.Count > 0)
+            // Oyuncunun PlayFab ID'si ile kendi skorunu bul
+            if (entry.PlayFabId == PlayFabSettings.staticPlayer.PlayFabId)
             {
-                highScore = result.Leaderboard[0].StatValue;
+                highScore = entry.StatValue;
+                PlayerPrefs.SetInt("HighScoreEasy", highScore);
+                break;
             }
-            else
-            {
-                highScore = 0;
-            }
-
-            PlayerPrefs.SetInt("HighScoreEasy", highScore);
         }
+    }
 
-        private void OnGetLeaderboardError(PlayFabError error)
-        {
-            Debug.Log("Error getting leaderboard: " + error.GenerateErrorReport());
-        }
+    private void OnGetLeaderboardError(PlayFabError error)
+    {
+        Debug.Log("Error getting leaderboard: " + error.GenerateErrorReport());
+    }
     private void AddScore()
     {
         score++;
