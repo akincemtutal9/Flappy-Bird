@@ -531,6 +531,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1038920235}
+  - {fileID: 845557409}
   - {fileID: 275814181}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -964,6 +965,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 752325729}
   m_CullTransparentMesh: 1
+--- !u!1 &845557408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 845557409}
+  - component: {fileID: 845557410}
+  m_Layer: 0
+  m_Name: LeanGameObjectCoin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &845557409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845557408}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.7371395, y: -0.15069492, z: -0.05865354}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 579615820}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &845557410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845557408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea08375da243a441b88d1e6b0713006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1821287255536913446, guid: 1e4b7318cb3c49245815e899440cd11b, type: 3}
+  notification: 3
+  strategy: 0
+  preload: 4
+  capacity: 4
+  recycle: 1
+  persist: 0
+  stamp: 0
+  warnings: 1
+  spawnedClonesList: []
+  despawnedClones: []
+  delays: []
+  deactivatedChild: {fileID: 0}
 --- !u!1 &892303326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1609,7 +1667,7 @@ GameObject:
   - component: {fileID: 1038920235}
   - component: {fileID: 1038920234}
   m_Layer: 0
-  m_Name: LeanGameObjectPool
+  m_Name: LeanGameObjectPoolPipe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1655,6 +1713,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 579615820}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1271064496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1271064497}
+  - component: {fileID: 1271064498}
+  m_Layer: 0
+  m_Name: CoinSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1271064497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271064496}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.255, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1865167659}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1271064498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271064496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9542c22e18235c44aa9dee45000ccaf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minY: -1
+  maxY: 3
+  spawnRate: 10
+  spawnPoint: {fileID: 1271064497}
+  coinPrefab: {fileID: 1821287255536913446, guid: 1e4b7318cb3c49245815e899440cd11b, type: 3}
 --- !u!1 &1333223196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2348,6 +2455,7 @@ Transform:
   m_Children:
   - {fileID: 2091449779}
   - {fileID: 178070981}
+  - {fileID: 1271064497}
   - {fileID: 1408853045}
   - {fileID: 911038741}
   - {fileID: 1809838225}
@@ -2743,7 +2851,7 @@ MonoBehaviour:
   pointSound: {fileID: 8300000, guid: 9111fa6318f2dfb42ace1d32666d091c, type: 3}
   dieSound: {fileID: 8300000, guid: 4597c8436f9dd634493fcdffbe84c9dd, type: 3}
   hitSound: {fileID: 8300000, guid: 8e33970018d06564ea05f18aedf5e6ab, type: 3}
-  coinSound: {fileID: 8300000, guid: 9111fa6318f2dfb42ace1d32666d091c, type: 3}
+  coinSound: {fileID: 8300000, guid: 4ee040c4db0a35a4bafac44b9ee6364f, type: 3}
 --- !u!1 &2091465254
 GameObject:
   m_ObjectHideFlags: 0

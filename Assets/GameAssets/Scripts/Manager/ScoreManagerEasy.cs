@@ -19,9 +19,39 @@ public class ScoreManagerEasy : MonoBehaviour
     }
     private void Start()
     {
-        highScore = PlayerPrefs.GetInt("HighScoreEasy", 0);
+        GetHighScoreFromLeaderboard();
     }
 
+    private void GetHighScoreFromLeaderboard()
+        {
+            var request = new GetLeaderboardRequest
+            {
+                StatisticName = "FlappyBird-Easy",
+                StartPosition = 0,
+                MaxResultsCount = 1
+            };
+
+            PlayFabClientAPI.GetLeaderboard(request, OnGetLeaderboardSuccess, OnGetLeaderboardError);
+        }
+
+        private void OnGetLeaderboardSuccess(GetLeaderboardResult result)
+        {
+            if (result.Leaderboard.Count > 0)
+            {
+                highScore = result.Leaderboard[0].StatValue;
+            }
+            else
+            {
+                highScore = 0;
+            }
+
+            PlayerPrefs.SetInt("HighScoreEasy", highScore);
+        }
+
+        private void OnGetLeaderboardError(PlayFabError error)
+        {
+            Debug.Log("Error getting leaderboard: " + error.GenerateErrorReport());
+        }
     private void AddScore()
     {
         score++;
