@@ -1,5 +1,4 @@
 using GoogleMobileAds.Api;
-using PlayFab.AdminModels;
 using UnityEngine;
 
 public class AdmobAdsManager : MonoBehaviour
@@ -7,12 +6,15 @@ public class AdmobAdsManager : MonoBehaviour
     private const string Banner = nameof(Banner);
     private void OnEnable()
     {
-        //EventManager.AddHandler(GameEvent.SHOW_INTERSTITIAL_AD, ShowInterstitialAd);
+        EventManager.AddHandler(GameEvent.ShowInterAd, ShowInterstitialAd);
+        EventManager.AddHandler(GameEvent.ShowRewardAd, ShowRewardedAd);
     }
+
 
     private void OnDisable()
     {
-        //EventManager.RemoveHandler(GameEvent.SHOW_INTERSTITIAL_AD, ShowInterstitialAd);
+        EventManager.RemoveHandler(GameEvent.ShowRewardAd, ShowRewardedAd);
+        EventManager.RemoveHandler(GameEvent.ShowInterAd, ShowInterstitialAd);
     }
 
     private void Awake()
@@ -117,6 +119,7 @@ public class AdmobAdsManager : MonoBehaviour
             print("Rewarded ad not ready");
         }
 
+        Time.timeScale = 1; // resume the game
         LoadRewardedAd();
 
     }
@@ -280,7 +283,6 @@ public class AdmobAdsManager : MonoBehaviour
         {
             print("Interstitial ad is not ready yet");
         }
-
         LoadInterstitialAd();
     }
 

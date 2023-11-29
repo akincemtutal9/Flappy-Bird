@@ -8,7 +8,8 @@ using System.Collections.Generic;
     OnHit,
     OnCoin,
     OnUpdateUI,
-    
+    ShowInterAd,
+    ShowRewardAd,
 }
 public static class EventManager 
 {

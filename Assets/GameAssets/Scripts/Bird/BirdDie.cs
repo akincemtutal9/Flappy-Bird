@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class BirdDie : MonoBehaviour
 {
     [SerializeField] private Sprite deadBirdSprite;
@@ -12,8 +11,9 @@ public class BirdDie : MonoBehaviour
 
     private void OnDisable()
     {
-        EventManager.RemoveHandler(GameEvent.OnDie, KillBird);        
+        EventManager.RemoveHandler(GameEvent.OnDie, KillBird);
     }
+
     private void KillBird()
     {
         var rb = GetComponent<Rigidbody2D>();
@@ -24,6 +24,17 @@ public class BirdDie : MonoBehaviour
         sprite.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
         rb.velocity = Vector2.zero;
         rb.AddForce(Vector2.up * force, ForceMode2D.Impulse);
-        Destroy(this, 2f);
+        Destroy(this.gameObject, 2f); // Destroy the GameObject, not the script
+        PlayerPrefs.SetInt("DieCount", PlayerPrefs.GetInt("DieCount") + 1);
+        Debug.Log("Die Count: " + PlayerPrefs.GetInt("DieCount"));
+        TriggerInterAd();
+    }
+    private void TriggerInterAd()
+    {
+        if (PlayerPrefs.GetInt("DieCount") > 0 && PlayerPrefs.GetInt("DieCount") % 5 == 0)
+        {
+            Debug.Log("Show Rewarded Ad");
+            EventManager.TriggerEvent(GameEvent.ShowRewardAd);
+        }
     }
 }
