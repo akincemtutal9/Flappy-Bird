@@ -36,7 +36,7 @@ public class PlayfabLeaderboard : MonoBehaviour
         {
             StatisticName = leaderboardName,
             StartPosition = 0,
-            MaxResultsCount = 10
+            MaxResultsCount = 99
         };
         PlayFabClientAPI.GetLeaderboard(request, OnLeaderboardGet, OnLeaderboardGetError);
         leaderboardNameText.text = leaderboardName + " Leaderboard";
