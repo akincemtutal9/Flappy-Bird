@@ -13,7 +13,6 @@ public class PlayfabLoginRegister : MonoBehaviour
     [SerializeField] private TMP_InputField usernameInputField;
     [SerializeField] private TMP_InputField emailInputField;
     [SerializeField] private TMP_InputField passwordInputField;
-   
     [SerializeField] private TMP_Text errorMessageText;
     [SerializeField] private TMP_Text successMessageText;
     

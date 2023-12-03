@@ -36,10 +36,10 @@ public class PlayfabLeaderboard : MonoBehaviour
         {
             StatisticName = leaderboardName,
             StartPosition = 0,
-            MaxResultsCount = 99
+            MaxResultsCount = 10
         };
         PlayFabClientAPI.GetLeaderboard(request, OnLeaderboardGet, OnLeaderboardGetError);
-        leaderboardNameText.text = leaderboardName + " Leaderboard";
+        leaderboardNameText.text = leaderboardName + " Leaderboard\n" + "TOP 10";
     }
     private void OnLeaderboardGet(GetLeaderboardResult result)
     {

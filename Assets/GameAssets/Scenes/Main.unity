@@ -593,7 +593,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: You have to login in order to see leaderboard !
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1ac1facbd413af04ea4067ca514cae00, type: 2}
   m_sharedMaterial: {fileID: 8929471371929185936, guid: 1ac1facbd413af04ea4067ca514cae00, type: 2}
@@ -1690,8 +1690,28 @@ PrefabInstance:
       value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 1587399068651287435, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587399068651287435, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f842610c9b48c40c18c82ecc44966062, type: 3}
+    - target: {fileID: 1587399068651287435, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 0.39215687
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587399068651287435, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587399068651287435, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587399068651287435, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2894620684313384559, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
       propertyPath: m_Pivot.x
@@ -1703,27 +1723,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2894620684313384559, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2894620684313384559, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2894620684313384559, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2894620684313384559, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2894620684313384559, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -200
+      value: 2360
       objectReference: {fileID: 0}
     - target: {fileID: 2894620684313384559, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -1600
+      value: 2952
       objectReference: {fileID: 0}
     - target: {fileID: 2894620684313384559, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1788,14 +1808,6 @@ PrefabInstance:
     - target: {fileID: 3751784783231105390, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3760971862693820946, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
-      propertyPath: m_CellSize.x
-      value: 2360
-      objectReference: {fileID: 0}
-    - target: {fileID: 3760971862693820946, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
-      propertyPath: m_CellSize.y
-      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 3920842254446101572, guid: 2b14cc056143c5441a97e5573cdd8e68, type: 3}
       propertyPath: m_Name
@@ -2120,8 +2132,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 180
-  m_fontSizeBase: 180
+  m_fontSize: 150
+  m_fontSizeBase: 150
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
